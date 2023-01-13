@@ -31,4 +31,9 @@ fun main(args: Array<String>) {
         1 -> println("there is only one character in string")
         else -> println("string with more than one character")
     }
+
+    kotlinInJava.demoFunction();
+
+    var kot: kotlinInJava = kotlinInJava();
+    println(kot)
 }
